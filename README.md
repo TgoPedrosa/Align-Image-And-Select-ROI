@@ -1,7 +1,16 @@
 # Align-Image-And-Select-ROI
 Align image, using an image as template and select ROI's coordinates
 
-# USAGE
+
+## Requirements
+- pip install numpy
+- pip install opencv-python
+- pip install argparse
+- pip install imutils
+- pip install scipy
+- pip install pytesseract
+
+## USAGE
 ```
 python config_image.py --template data/templatecnh.jpg --image data/testecnh.png
 ```
